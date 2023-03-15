@@ -9,6 +9,10 @@ import java.util.logging.Level;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
+import org.peimbert.applogger.MyFilter;
+import org.peimbert.applogger.MyFormatter;
+import org.peimbert.applogger.MyHandler;
+
 public class LoggingExample {
 
     static Logger logger = Logger.getLogger(LoggingExample.class.getName());
@@ -39,6 +43,7 @@ public class LoggingExample {
         } catch (SecurityException | IOException e) {
             e.printStackTrace();
         }
+        System.out.println(LogManager.getLogManager().toString());
     }
 
 }

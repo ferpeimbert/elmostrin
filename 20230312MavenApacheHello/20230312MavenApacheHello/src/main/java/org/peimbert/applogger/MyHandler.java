@@ -1,4 +1,4 @@
-package org.peimbert;
+package org.peimbert.applogger;
 
 import java.util.logging.Handler;
 import java.util.logging.LogRecord;

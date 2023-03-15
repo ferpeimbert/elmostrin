@@ -1,4 +1,4 @@
-package org.peimbert;
+package org.peimbert.applogger;
 
 import java.util.logging.Filter;
 import java.util.logging.Level;
